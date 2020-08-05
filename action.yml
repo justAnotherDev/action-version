@@ -1,11 +1,10 @@
 name: "Version Bump"
-description: "Increase the patch version."
-author: "Jungyoul Yu <@nalbam>"
+description: "Increase the patch version"
 
 branding:
   icon: "tag"
   color: "blue"
 
 runs:
-  using: docker
-  image: docker://opspresso/action-version:v0.2.5
+  using: 'docker'
+  image: 'Dockerfile'
